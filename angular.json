@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "Sponsorloop"
+  "defaultProject": "Sponsorloop",
+  "cli": {
+    "analytics": false
+  }
 }
