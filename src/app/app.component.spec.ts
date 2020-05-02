@@ -1,11 +1,15 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {MainComponent} from './main/main.component';
+import {DateComponent} from './date/date.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        MainComponent,
+        DateComponent
       ],
     }).compileComponents();
   }));
@@ -16,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Sponsorloop'`, () => {
+  it(`should have as title 'RunDash'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Sponsorloop');
+    expect(app.title).toEqual('RunDash');
   });
 
   it('should render title', () => {
