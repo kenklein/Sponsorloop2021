@@ -1,0 +1,17 @@
+Terminate LocalHost
+
+
+Open the CMD and type following.
+
+netstat -aon | find "1099 (local host number)"
+
+If a process uses above port, it should return something output like this.
+
+TCP    xxx.xx.xx.xx:1099      xx.xx.xx.xxx:443      ESTABLISHED     2222
+The last column value (2222) is referred to the Process ID (PID).
+
+Kill localhost
+
+taskkill /F /PID 2222
+
+Now you can start your server.
