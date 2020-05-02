@@ -1,5 +1,8 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {MainComponent} from './main/main.component';
+import {HeaderComponent} from './header/header.component';
+import {FooterComponent} from './footer/footer.component';
 
 
 describe('AppComponent', () => {
@@ -7,6 +10,9 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
+        MainComponent,
+        HeaderComponent,
+        FooterComponent
       ],
     }).compileComponents();
   }));
