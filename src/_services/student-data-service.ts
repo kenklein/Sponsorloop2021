@@ -12,5 +12,65 @@ export const STUDENT_DATA: Student[] = [
     targetAmount: 40,
     actualAmount: 10,
     description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
+  },
+  {
+    name: 'Jasper Kamerling',
+    targetAmount: 40,
+    actualAmount: 10,
+    description: 'Jasper is scheef maar kan rennen'
   }
 ];
