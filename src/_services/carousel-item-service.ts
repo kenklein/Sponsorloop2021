@@ -11,5 +11,10 @@ export const CAROUSEL_ITEMS: CarouselItem[] = [
     title: 'loef cabo',
     description: 'I <3 Ingenium Cabo Bianci',
     url:  'https://www.ingeniumcabobianci.nl/wp-content/uploads/2019/09/ICB-logo-300x93.png'
+  },
+  {
+    title: 'Test for Carousel',
+    description: 'Hele mooie dingen',
+    url: 'https://tagonce.nl/wp-content/uploads/2019/02/kat-kwijt.jpeg'
   }
 ];
