@@ -24,6 +24,6 @@ jobs:
         uses: actions-hub/gcloud@289.0.0
         env: 
           PROJECT_ID: "kkl-sponsorloop"
-          APPLICATION_CREDENTIALS: ${{ secrets.AZURE_ACCOUNT }}
+          APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_CLOUD_KEY }}
         with:
           args: app deploy app.yaml
