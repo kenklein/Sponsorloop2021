@@ -1,0 +1,18 @@
+ng runtime: nodejs10
+
+manual_scaling:
+  instances: 1
+
+handlers:
+  - url: /(.*\.(css|eot|gz|html|ico|js|map|png|jpg|svg|ttf|woff|woff2))
+    static_files: dist/Sponsorloop/\1
+    upload: dist/Sponsorloop/(.*\.(css|eot|gz|html|ico|js|map|png|svg|ttf|woff|woff2))
+  - url: /.*
+    static_files: dist/Sponsorlooop/index.html
+    upload: dist/Sponsorloop/index.html
+#    secure: always
+#    expiration: "15m"
+# Make this be secure, otherwise oauth redirect won't work if they want to us with http://
+#  - url: /api/.*
+#    script: main.app
+
