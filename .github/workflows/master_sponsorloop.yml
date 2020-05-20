@@ -22,7 +22,7 @@ jobs:
       - run: npm run build-prod
       - uses: actions-hub/gcloud@master
         env:
-          PROJECT_ID: kkl-sponsorloop
+          PROJECT_ID: kkl-sponsorloop/default
           APPLICATION_CREDENTIALS: ${{secrets.AZURE_ACCOUNT}}
         with:
           args: app deploy app.yaml
