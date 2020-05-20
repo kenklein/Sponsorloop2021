@@ -20,9 +20,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm install
       - run: npm run build-prod
-      - uses: actions-hub/gcloud@master
-        env:
-          PROJECT_ID: kkl-sponsorloop/default
-          APPLICATION_CREDENTIALS: ${{secrets.AZURE_ACCOUNT}}
+      - name: Google Cloud Platform (GCP) CLI - gcloud
+        uses: actions-hub/gcloud@289.0.0
+        env: 
+          PROJECT_ID: "kkl-sponsorloop"
+          APPLICATION_CREDENTIALS: ${{ secrets.AZURE_ACCOUNT }}
         with:
           args: app deploy app.yaml
