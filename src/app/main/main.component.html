@@ -1,39 +1,84 @@
-<div class="carousel slide">
-  <ngb-carousel>
+<!--<div class="container carousel slide">
+  <ngb-carousel style="background-color: #a1a1a1;">
     <ng-container *ngFor="let carouselItem of carouselItems">
       <ng-template ngbSlide>
-          <img [src]="carouselItem.url" alt="{{carouselItem.title}}" style="background-size:cover">
-        <div class="carousel-caption">
-          <h3>{{carouselItem.title}}</h3>
-          <p>{{carouselItem.description}}</p>
+        <div class="container">
+          <img class="rounded center-block" [src]="carouselItem.url" alt="{{carouselItem.title}}">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>{{carouselItem.title}}</h3>
+            <p>{{carouselItem.description}}</p>
+          </div>
         </div>
       </ng-template>
     </ng-container>
   </ngb-carousel>
+</div>-->
+<hr class="featurette-divider">
+<div class="container">
+  <div id="signin">
+    <div class="col-lg-6">
+      <p><a class="btn btn-secondary" href="https://ingeniumcabobianci.nl/u-t-v-x-icb-corona-sponsorloop-2020/"> Naar
+        het aanmeldingsformulier »</a></p>
+    </div>
+  </div>
 </div>
 
 <div class="container marketing">
+  <hr class="featurette-divider">
+  <div id="competition">
+    <ng-container *ngFor="let competition of competitionData">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">{{competition.name}}</h2>
+          <p class="lead">
+            {{competition.description}}
+          </p>
+          <p>
+            <ngb-progressbar type="primary"
+                             [value]="(competition.actualAmountutv / competition.targetAmountutv ) * 100">{{competition.actualAmountutv}}
+              UTV km
+            </ngb-progressbar>
+          </p>
+          <p>
+            <ngb-progressbar type="primary"
+                             [value]="(competition.actualAmounticb / competition.targetAmounticb ) * 100">{{competition.actualAmounticb}}
+              ICB km
+            </ngb-progressbar>
+          </p>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <hr class="featurette-divider">
+
   <div id="introduction" class="row">
-    <div class="col-lg-4">
-      <img class="rounded-circle" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/s960x960/95676349_2795420390493245_1661070385455562752_o.jpg?_nc_cat=105&_nc_sid=340051&_nc_ohc=Ek54-XMA7FwAX8TL8EV&_nc_ht=scontent-amt2-1.xx&_nc_tp=7&oh=ea3578f6e8cca62b0908a053361e7b2b&oe=5EE6FDB9" alt="Generic placeholder image" width="140" height="140">
+    <div class="col-lg-6">
+      <img class="rounded-circle"
+           src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/s960x960/95676349_2795420390493245_1661070385455562752_o.jpg?_nc_cat=105&_nc_sid=340051&_nc_ohc=Ek54-XMA7FwAX8TL8EV&_nc_ht=scontent-amt2-1.xx&_nc_tp=7&oh=ea3578f6e8cca62b0908a053361e7b2b&oe=5EE6FDB9"
+           alt="Generic placeholder image" width="140" height="140">
       <h2>ICB & UTV Sponsorloop</h2>
       <p>Beste Leden en niet-Leden,
-        De sportcommissies van beide verenigingen hebben gezamenlijk besloten om voor het goede doel een sponsorloop te organiseren. Hierbij willen wij graag middels individuele runs geld ophalen en het totaal bedrag doneren aan het goede doel wat zich inzet in de strijd tegen Corona!</p>
-      <p><a class="btn btn-secondary" href="https://www.facebook.com/events/901047133674454" role="button">Ga naar facebook evenement »</a></p>
+        De sportcommissies van beide verenigingen hebben gezamenlijk besloten om voor het goede doel een sponsorloop te
+        organiseren. Hierbij willen wij graag middels individuele runs geld ophalen en het totaal bedrag doneren aan het
+        goede doel wat zich inzet in de strijd tegen Corona!</p>
+      <p><a class="btn btn-secondary" href="https://www.facebook.com/events/901047133674454" role="button">Ga naar
+        facebook evenement »</a></p>
     </div>
-    <div class="col-lg-4">
-      <img class="rounded-circle" src="https://www.lumc.nl/images/logo.svg" alt="Generic placeholder image" width="140" height="140">
+    <div class="col-lg-6">
+      <img class="rounded-circle" src="https://www.lumc.nl/images/logo.svg" alt="Generic placeholder image" width="140"
+           height="140">
       <h2>Onderzoek vaccin Corona</h2>
-      <p>Nieuwe behandelopties en de ontwikkeling van betere geneesmiddelen kunnen helpen om de verspreiding van het huidige coronavirus op korte termijn te beperken. Onderzoekers willen daarnaast meer diepgaande kennis opdoen over coronavirussen. Zo zijn we beter voorbereid op toekomstige uitbraken van andere coronavirussen. Een belangrijk doel voor de middellange termijn is het ontwikkelen van remmers die actief zijn tegen grotere groepen verwante coronavirussen. En wie weet zelfs tegen deze gehele virusfamilie.
+      <p>Nieuwe behandelopties en de ontwikkeling van betere geneesmiddelen kunnen helpen om de verspreiding van het
+        huidige coronavirus op korte termijn te beperken. Onderzoekers willen daarnaast meer diepgaande kennis opdoen
+        over coronavirussen. Een belangrijk doel voor de middellange termijn is het ontwikkelen van remmers die actief
+        zijn tegen grotere groepen
+        verwante coronavirussen.
 
-        Het LUMC bevindt zich op het Leiden Bio Science Park, waar samengewerkt wordt met diverse internationale bedrijven zoals Janssen Pharmaceutica, alsook met startups, waarbij gebruik gemaakt wordt van onze testfaciliteiten. Internationaal werken onze onderzoekers samen met verschillende Europese partners.</p>
+        Het LUMC bevindt zich op het Leiden Bio Science Park, waar samengewerkt wordt met diverse internationale
+        bedrijven zoals Janssen Pharmaceutica, alsook met startups, waarbij gebruik gemaakt wordt van onze
+        testfaciliteiten. Internationaal werken onze onderzoekers samen met verschillende Europese partners.</p>
       <p><a class="btn btn-secondary" href="https://www.lumc.nl/" role="button">Ga naar website LUMC »</a></p>
-    </div>
-    <div class="col-lg-4">
-      <img class="rounded-circle" src="" alt="Generic placeholder image" width="140" height="140">
-      <h2>TEST DIV</h2>
-      <p></p>
-      <p><a class="btn btn-secondary" href="" role="button"></a></p>
     </div>
   </div>
 
@@ -45,14 +90,19 @@
         <div class="col-md-7">
           <h2 class="featurette-heading">{{student.name}}</h2>
           <p class="lead">
+            {{student.team}}
+          </p>
+          <p class="lead">
             {{student.description}}
           </p>
           <p>
-            <ngb-progressbar type="primary" [value]="(student.actualAmount / student.targetAmount ) * 100">{{student.actualAmount}} km</ngb-progressbar>
+            <ngb-progressbar type="primary"
+                             [value]="(student.actualAmount / student.targetAmount ) * 100">{{student.actualAmount}} km
+            </ngb-progressbar>
           </p>
         </div>
       </div>
       <hr class="featurette-divider">
     </ng-container>
   </div>
-</div>
+

@@ -1,6 +1,8 @@
 import { Component} from '@angular/core';
 import { STUDENT_DATA } from '../../_services/student-data-service';
 import {CAROUSEL_ITEMS} from '../../_services/carousel-item-service';
+import {COMPETITION_DATA} from '../../_services/competition-data-service';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-main',
@@ -9,16 +11,13 @@ import {CAROUSEL_ITEMS} from '../../_services/carousel-item-service';
 })
 export class MainComponent {
   carouselItems = CAROUSEL_ITEMS;
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
   studentData = STUDENT_DATA;
-  currentSection = 'section1';
+  competitionData = COMPETITION_DATA;
 
   constructor() { }
 
 
   onSectionChange(sectionId: string) {
-    this.currentSection = sectionId;
   }
 
   scrollTo(section) {
