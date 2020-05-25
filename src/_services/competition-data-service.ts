@@ -6,7 +6,7 @@ export const COMPETITION_DATA: Competition[] = [
     description: 'Overzicht van de gelopen kilometers tussen de verenigingen',
     targetAmountutv: 0,
     actualAmountutv: 0,
-    targetAmounticb: 12.5,
-    actualAmounticb: 12.5,
+    targetAmounticb: 15.5,
+    actualAmounticb: 15.5,
   },
 ];
