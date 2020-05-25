@@ -5,4 +5,6 @@ export interface Competition {
   actualAmountutv: number;
   targetAmounticb: number;
   actualAmounticb: number;
+  targetAmountother: number;
+  actualAmountother: number;
 }

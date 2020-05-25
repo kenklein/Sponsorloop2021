@@ -58,6 +58,12 @@
               ICB km
             </ngb-progressbar>
           </p>
+          <p>
+            <ngb-progressbar type="primary"
+                             [value]="(competition.actualAmountother / competition.targetAmountother ) * 100">{{competition.actualAmountother}}
+              Overig km
+            </ngb-progressbar>
+          </p>
         </div>
       </div>
     </ng-container>
