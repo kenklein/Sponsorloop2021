@@ -4,9 +4,9 @@ export const COMPETITION_DATA: Competition[] = [
   {
     name: 'Competitie U.T.V. vs ICB',
     description: 'Overzicht van de gelopen kilometers tussen de verenigingen',
-    targetAmountutv: 100,
-    actualAmountutv: 1,
-    targetAmounticb: 100,
-    actualAmounticb: 1,
+    targetAmountutv: 0,
+    actualAmountutv: 0,
+    targetAmounticb: 12.5,
+    actualAmounticb: 12.5,
   },
 ];

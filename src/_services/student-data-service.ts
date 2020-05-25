@@ -2,11 +2,19 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
-    name: 'Deelnemer #1',
-    team: 'UTV / ICB / Overig',
-    targetAmount: 100,
-    actualAmount: 0,
-    description: 'informatie'
+    name: 'Kelly Brabander',
+    team: 'ICB - Ingenium Cabo Bianci',
+    targetAmount: 7.5,
+    actualAmount: 7.5,
+    description: 'n.v.t.'
+  },
+
+  {
+    name: 'Maud van Loon',
+    team: 'ICB - Ingenium Cabo Bianci',
+    targetAmount: 8,
+    actualAmount: 8,
+    description: 'n.v.t.'
   },
 
 ];
