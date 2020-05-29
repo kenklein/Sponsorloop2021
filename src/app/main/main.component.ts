@@ -10,7 +10,6 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-  carouselItems = CAROUSEL_ITEMS;
   studentData = STUDENT_DATA;
   competitionData = COMPETITION_DATA;
 
