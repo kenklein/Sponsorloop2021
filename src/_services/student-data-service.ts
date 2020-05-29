@@ -4,8 +4,8 @@ export const STUDENT_DATA: Student[] = [
   {
     name: 'Lars Goris',
     team: 'ICB - Ingenium Cabo Bianci',
-    targetAmount: 5,
-    actualAmount: 5,
+    targetAmount: 5.01,
+    actualAmount: 5.01,
     description: 'Samen met huisgenoot gelopen.',
   },
 
