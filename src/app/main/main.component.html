@@ -19,8 +19,16 @@
 <div class="container marketing">
   <hr class="featurette-divider">
   <div class="container">
-    <div class="col-lg-12">
-      <countdown units="Days | Hours | Minutes | Seconds" end="June 14, 2020"></countdown>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 font-italic">€ {{ getTotal() }} opgehaald</h1>
+          </div>
+        </div>
+
+        <countdown units="Days | Hours | Minutes | Seconds" end="June 14, 2020"></countdown>
+      </div>
     </div>
   </div>
 
@@ -108,7 +116,7 @@
     <ng-container *ngFor="let student of studentData">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">{{student.name}}</h2>
+          <h2 class="featurette-heading">{{student.name}} <ng-container *ngIf="student.amountRaised != null"> <br/>€ {{student.amountRaised}}</ng-container></h2>
           <p class="lead">
             {{student.team}}
           </p>

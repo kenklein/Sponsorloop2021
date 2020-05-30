@@ -4,4 +4,5 @@ export interface Student {
   description: string;
   targetAmount: number;
   actualAmount: number;
+  amountRaised?: number;
 }

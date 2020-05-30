@@ -1,8 +1,7 @@
 import { Component} from '@angular/core';
 import { STUDENT_DATA } from '../../_services/student-data-service';
-import {CAROUSEL_ITEMS} from '../../_services/carousel-item-service';
 import {COMPETITION_DATA} from '../../_services/competition-data-service';
-import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-main',
@@ -24,4 +23,13 @@ export class MainComponent {
       .scrollIntoView();
   }
 
+  getTotal() {
+    let total = 0;
+    for (const student of this.studentData) {
+      if (student.amountRaised != null) {
+        total += student.amountRaised;
+      }
+    }
+    return total;
+  }
 }
