@@ -23,7 +23,7 @@
       <div class="col-md-6">
         <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
           <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">€ {{ getTotal() }} opgehaald</h1>
+            <h1 class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }} opgehaald</h1>
           </div>
         </div>
 
@@ -116,7 +116,7 @@
     <ng-container *ngFor="let student of studentData">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">{{student.name}} <ng-container *ngIf="student.amountRaised != null"> <br/>€ {{student.amountRaised}}</ng-container></h2>
+          <h2 class="featurette-heading">{{student.name}} <ng-container *ngIf="student.amountRaised != null"> <br/>{{student.amountRaised | currency: 'EUR' }}</ng-container></h2>
           <p class="lead">
             {{student.team}}
           </p>
