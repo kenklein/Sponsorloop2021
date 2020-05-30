@@ -6,6 +6,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 5.01,
     actualAmount: 5.01,
+    amountRaised: 5.00,
     description: 'Samen met huisgenoot gelopen.',
   },
 
@@ -14,6 +15,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 5,
     actualAmount: 5,
+    amountRaised: 25.00,
     description: 'Samen met huisgenoot gelopen.',
   },
 
@@ -22,6 +24,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'U.T.V. - Utrechtse Technische Vereniging ',
     targetAmount: 8.75,
     actualAmount: 8.75,
+    amountRaised: 10,
     description: '',
   },
   {
@@ -29,6 +32,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 4.9,
     actualAmount: 4.9,
+    amountRaised: 5,
     description: '',
   },
   {
@@ -36,13 +40,15 @@ export const STUDENT_DATA: Student[] = [
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 8,
     actualAmount: 8,
+    amountRaised: 20.00,
     description: '',
   },
   {
     name: 'Kelly Brabander',
     team: 'ICB - Ingenium Cabo Bianci',
-    targetAmount: 7.5,
-    actualAmount: 7.5,
+    targetAmount: 5,
+    actualAmount: 5,
+    amountRaised: 7.50,
     description: '',
   },
 
