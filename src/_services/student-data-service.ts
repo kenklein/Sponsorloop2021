@@ -15,7 +15,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'U.T.V. - Utrechtse Technische Vereniging',
     targetAmount: 8.01,
     actualAmount: 8.01,
-    amountRaised: 24.03,
+    amountRaised: 24.00,
     description: '',
   },
 
@@ -24,7 +24,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'U.T.V. - Utrechtse Technische Vereniging',
     targetAmount: 10.15,
     actualAmount: 10.15,
-    amountRaised: 35,
+    amountRaised: 95,
     description: '',
   },
 
@@ -58,9 +58,9 @@ export const STUDENT_DATA: Student[] = [
   {
     name: 'Marciano Mascini',
     team: 'U.T.V. - Utrechtse Technische Vereniging ',
-    targetAmount: 8.75,
-    actualAmount: 8.75,
-    amountRaised: 10,
+    targetAmount: 13.5,
+    actualAmount: 13.5,
+    amountRaised: 23,
     description: '',
   },
   {
