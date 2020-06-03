@@ -8,7 +8,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 5,
     amountRaised: 70,
     description: 'Ondanks dat ik niks meer kon na de 5 km, die ik heb gelopen, heb ik veel geld opgehaald om ervoor te zorgen dat we sneller met ze alle weer in de kroeg kunnen staan. We hoeven dan ook niet meer hard te lopen.',
-    imageScr: 'assets/img/milan_dammingh.jpeg',
+    imageScr: 'assets/img/png/milan_dammingh.png',
   },
 
   {
@@ -18,7 +18,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 8.01,
     amountRaised: 24.00,
     description: '',
-    imageScr: 'assets/img/floor_zandstra.jpg',
+    imageScr: 'assets/img/png/floor_zandstra.png',
   },
 
   {
@@ -28,7 +28,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 10.15,
     amountRaised: 95,
     description: '',
-    imageScr: 'assets/img/cami_tak.jpg',
+    imageScr: 'assets/img/png/cami_tak.png',
   },
 
   {
@@ -38,7 +38,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 13,
     amountRaised: 13,
     description: '',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/png/no_run.png',
   },
 
   {
@@ -48,7 +48,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 5.01,
     amountRaised: 5.00,
     description: 'Samen met huisgenoot gelopen.',
-    imageScr: 'assets/img/lars_goris.jpg',
+    imageScr: 'assets/img/png/lars_goris.png',
   },
 
   {
@@ -58,7 +58,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 5,
     amountRaised: 25.00,
     description: 'Samen met huisgenoot gelopen.',
-    imageScr: 'assets/img/didier_wouters.jpeg',
+    imageScr: 'assets/img/png/didier_wouters.png',
   },
 
   {
@@ -68,7 +68,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 13.5,
     amountRaised: 23,
     description: '',
-    imageScr: 'assets/img/marciano_mascini.JPG',
+    imageScr: 'assets/img/png/marciano_mascini.png',
   },
   {
     name: 'Tycho Bakker',
@@ -86,7 +86,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 8,
     amountRaised: 20.00,
     description: '',
-    imageScr: 'assets/img/maud_van_loon.JPG',
+    imageScr: 'assets/img/png/maud_van_loon.png',
   },
   {
     name: 'Kelly Brabander',
@@ -95,7 +95,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 5,
     amountRaised: 7.50,
     description: '',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/png/no_run.png',
   },
 
 
