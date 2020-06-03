@@ -8,7 +8,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 5,
     amountRaised: 70,
     description: 'Ondanks dat ik niks meer kon na de 5 km, die ik heb gelopen, heb ik veel geld opgehaald om ervoor te zorgen dat we sneller met ze alle weer in de kroeg kunnen staan. We hoeven dan ook niet meer hard te lopen.',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/milan_dammingh.jpeg',
   },
 
   {
@@ -18,7 +18,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 8.01,
     amountRaised: 24.00,
     description: '',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/floor_zandstra.jpg',
   },
 
   {
@@ -28,7 +28,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 10.15,
     amountRaised: 95,
     description: '',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/cami_tak.jpg',
   },
 
   {
@@ -48,7 +48,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 5.01,
     amountRaised: 5.00,
     description: 'Samen met huisgenoot gelopen.',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/lars_goris.jpg',
   },
 
   {
@@ -68,7 +68,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 13.5,
     amountRaised: 23,
     description: '',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/marciano_mascini.JPG',
   },
   {
     name: 'Tycho Bakker',
@@ -86,7 +86,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 8,
     amountRaised: 20.00,
     description: '',
-    imageScr: 'assets/img/no_run.JPG',
+    imageScr: 'assets/img/maud_van_loon.JPG',
   },
   {
     name: 'Kelly Brabander',
