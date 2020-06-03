@@ -5,4 +5,5 @@ export interface Student {
   targetAmount: number;
   actualAmount: number;
   amountRaised?: number;
+  imageScr: string;
 }

@@ -15,7 +15,6 @@
 </div>-->
 
 
-
 <div class="container marketing">
   <hr class="featurette-divider">
   <div class="container">
@@ -116,13 +115,25 @@
     <ng-container *ngFor="let student of studentData">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">{{student.name}} <ng-container *ngIf="student.amountRaised != null"> <br/>{{student.amountRaised | currency: 'EUR' }}</ng-container></h2>
+          <h1>{{student.name}}
+            <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
+            </ng-container>
+          </h1>
           <p class="lead">
             {{student.team}}
           </p>
           <p>
             {{student.description}}
           </p>
+
+        </div>
+        <div class="col-md-5">
+          <img src="{{student.imageScr}}" class="rounded float-left w-100" alt="">
+        </div>
+      </div>
+      <div class="row featurette">
+        <br>
+        <div class="col-md-12">
           <p>
             <ngb-progressbar type="primary"
                              [value]="(student.actualAmount / student.targetAmount ) * 100">{{student.actualAmount}} km
