@@ -4,8 +4,8 @@ export const STUDENT_DATA: Student[] = [
   {
     name: 'Milan Dammingh',
     team: 'ICB - Ingenium Cabo Bianci',
-    targetAmount: 5,
-    actualAmount: 5,
+    targetAmount: 5.02,
+    actualAmount: 5.02,
     amountRaised: 70,
     description: 'Ondanks dat ik niks meer kon na de 5 km, die ik heb gelopen, heb ik veel geld opgehaald om ervoor te zorgen dat we sneller met ze alle weer in de kroeg kunnen staan. We hoeven dan ook niet meer hard te lopen.',
     imageScr: 'assets/img/png/milan_dammingh.png',
@@ -26,7 +26,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'U.T.V. - Utrechtse Technische Vereniging',
     targetAmount: 10.15,
     actualAmount: 10.15,
-    amountRaised: 95,
+    amountRaised: 100,
     description: '',
     imageScr: 'assets/img/png/cami_tak.png',
   },
@@ -53,8 +53,8 @@ export const STUDENT_DATA: Student[] = [
   {
     name: 'Didier Wouters',
     team: 'ICB - Ingenium Cabo Bianci',
-    targetAmount: 5,
-    actualAmount: 5,
+    targetAmount: 5.01,
+    actualAmount: 5.01,
     amountRaised: 25.00,
     description: 'Samen met huisgenoot gelopen.',
     imageScr: 'assets/img/png/didier_wouters.png',
@@ -85,7 +85,7 @@ export const STUDENT_DATA: Student[] = [
     actualAmount: 8,
     amountRaised: 20.00,
     description: '',
-    imageScr: 'assets/img/png/maud_van_loon.png',
+    imageScr: 'assets/img/png/maud_van_loon (1).png',
   },
   {
     name: 'Kelly Brabander',
@@ -93,7 +93,7 @@ export const STUDENT_DATA: Student[] = [
     targetAmount: 5,
     actualAmount: 5,
     amountRaised: 7.50,
-    description: ''
+    description: '',
   },
 
 
