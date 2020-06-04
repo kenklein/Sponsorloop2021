@@ -37,8 +37,7 @@ export const STUDENT_DATA: Student[] = [
     targetAmount: 13,
     actualAmount: 13,
     amountRaised: 13,
-    description: '',
-    imageScr: 'assets/img/png/no_run.png',
+    description: ''
   },
 
   {
@@ -94,8 +93,7 @@ export const STUDENT_DATA: Student[] = [
     targetAmount: 5,
     actualAmount: 5,
     amountRaised: 7.50,
-    description: '',
-    imageScr: 'assets/img/png/no_run.png',
+    description: ''
   },
 
 
