@@ -13,16 +13,6 @@ export class MainComponent {
   competitionData = COMPETITION_DATA;
 
   constructor() { }
-
-
-  onSectionChange(sectionId: string) {
-  }
-
-  scrollTo(section) {
-    document.querySelector('#' + section)
-      .scrollIntoView();
-  }
-
   getTotal() {
     let total = 0;
     for (const student of this.studentData) {

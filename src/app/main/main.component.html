@@ -1,27 +1,10 @@
-<!--<div class="container carousel slide">
-  <ngb-carousel style="background-color: #a1a1a1;">
-    <ng-container *ngFor="let carouselItem of carouselItems">
-      <ng-template ngbSlide>
-        <div class="container">
-          <img class="rounded center-block" [src]="carouselItem.url" alt="{{carouselItem.title}}">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>{{carouselItem.title}}</h3>
-            <p>{{carouselItem.description}}</p>
-          </div>
-        </div>
-      </ng-template>
-    </ng-container>
-  </ngb-carousel>
-</div>-->
-
-
 <div class="container marketing">
   <hr class="featurette-divider">
   <div class="container">
     <div class="row mb-2">
       <div class="col-md-12">
-        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-            <h1 class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }} opgehaald</h1>
+        <div class="jumbotron p-md-5 text-white rounded bg-dark">
+            <h1 style="text-align: center;" class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }} opgehaald</h1>
           </div>
         <countdown units="Days | Hours | Minutes | Seconds" end="June 14, 2020"></countdown>
       </div>
@@ -115,6 +98,7 @@
           <h4>{{student.name}}
             <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
             </ng-container>
+            - {{student.actualAmount}} km
           </h4>
           <p class="lead">
             {{student.team}}
@@ -122,20 +106,9 @@
           <p>
             {{student.description}}
           </p>
-
         </div>
         <div class="col-md-5">
-          <img src="{{student.imageScr}}" class="rounded float-left w-100" alt="">
-        </div>
-      </div>
-      <div class="row featurette">
-        <br>
-        <div class="col-md-12">
-          <p>
-            <ngb-progressbar type="primary"
-                             [value]="(student.actualAmount / student.targetAmount ) * 100">{{student.actualAmount}} km
-            </ngb-progressbar>
-          </p>
+          <img *ngIf="student.imageScr != null" src="{{student.imageScr}}" class="rounded float-left w-100" alt="">
         </div>
       </div>
       <hr class="divider">
