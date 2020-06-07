@@ -1,11 +1,22 @@
 <div class="container marketing">
-  <hr class="featurette-divider">
+  <div class="container">
+    <hr class="featurette-divider">
+      <div class="row mb-2">
+        <p>
+        {{facebookData.content}}
+        </p>
+      </div>
+  </div>
+
+
+  <hr class="divider">
   <div class="container">
     <div class="row mb-2">
       <div class="col-md-12">
         <div class="jumbotron p-md-5 text-white rounded bg-dark">
-            <h1 style="text-align: center;" class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }} opgehaald</h1>
-          </div>
+          <h1 style="text-align: center;" class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }}
+            opgehaald</h1>
+        </div>
         <countdown units="Days | Hours | Minutes | Seconds" end="June 14, 2020"></countdown>
       </div>
     </div>
@@ -114,4 +125,4 @@
       <hr class="divider">
     </ng-container>
   </div>
-
+</div>
