@@ -7,7 +7,7 @@ export const COMPETITION_DATA: Competition[] = [
     targetAmountutv: 50,
     actualAmountutv: 44.41,
     targetAmounticb: 50,
-    actualAmounticb: 35.41,
+    actualAmounticb: 44.41,
     targetAmountother: 50,
     actualAmountother: 0,
   },
