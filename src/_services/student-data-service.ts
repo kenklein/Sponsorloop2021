@@ -2,6 +2,24 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
+    name: 'Louise Blom',
+    team: 'U.T.V. - Utrechtse Technische Vereniging',
+    targetAmount: 4.3,
+    actualAmount: 4.3,
+    amountRaised: 21.50,
+    description: 'Team U.T.V. !!',
+    imageScr: 'assets/img/png/louise_blom.png'
+  },
+  {
+    name: 'Carl Beelhuizen',
+    team: 'ICB - Ingenium Cabo Bianci',
+    targetAmount: 16,
+    actualAmount: 16,
+    amountRaised: 16,
+    description: '',
+    imageScr: 'assets/img/png/carl_beelhuizen.png'
+  },
+  {
     name: 'Thom van Empelen',
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 9,
