@@ -2,6 +2,15 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
+    name: 'Mark Smits',
+    team: 'ICB - Ingenium Cabo Bianci',
+    targetAmount: 11.60,
+    actualAmount: 11.60,
+    amountRaised: 250,
+    description: 'Dispuut Whose Kangaroo',
+    imageScr: 'assets/img/png/mark_smits.png',
+  },
+  {
     name: 'Koen Spruijt',
     team: 'U.T.V. - Utrechtse Technische Vereniging',
     targetAmount: 8.73,
