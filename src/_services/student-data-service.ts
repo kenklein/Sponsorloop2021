@@ -6,7 +6,7 @@ export const STUDENT_DATA: Student[] = [
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 11.60,
     actualAmount: 11.60,
-    amountRaised: 350,
+    amountRaised: 400,
     description: 'Dispuut Whose Kangaroo',
     imageScr: 'assets/img/png/mark_smits.png',
   },
