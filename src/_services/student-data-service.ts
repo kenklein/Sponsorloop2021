@@ -2,6 +2,14 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
+    name: 'Wouter Slob',
+    team: 'U.T.V. - Utrechtse Technische Vereniging',
+    targetAmount: 4.4,
+    actualAmount: 4.4,
+    amountRaised: 147.29,
+    description: 'team U.T.V.',
+  },
+  {
     name: 'Mark Smits',
     team: 'ICB - Ingenium Cabo Bianci',
     targetAmount: 11.60,
