@@ -1,5 +1,5 @@
 import {Facebook} from '../_models/facebook';
 
 export const FACEBOOK_DATA: Facebook = {
-  content : 'TEST_update SPECTER-PARTNERS_KKL'
+  content : 'TEST_update'
 }
