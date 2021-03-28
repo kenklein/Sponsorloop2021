@@ -1,5 +1,3 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy Node.js app to google cloud
 
@@ -21,8 +19,8 @@ jobs:
       - run: npm install
       - run: npm run build-prod
       - name: Google Cloud Platform (GCP) CLI - gcloud
-        uses: actions-hub/gcloud@289.0.0
-        env: 
+        uses: actions-hub/gcloud@master
+        env:
           PROJECT_ID: "kkl-sponsorloop"
           APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_CLOUD_KEY }}
         with:
