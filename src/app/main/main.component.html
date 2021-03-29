@@ -1,10 +1,10 @@
 <div class="container marketing">
+  <hr class="featurette-divider">
   <div class="container">
-    <hr class="featurette-divider">
       <div class="row mb-2">
-      <h3>
+      <h4>
         {{facebookData.content}}
-      </h3>
+      </h4>
       </div>
   </div>
 
@@ -31,6 +31,16 @@
       </div>
     </div>
   </div>
+    <hr class="divider">
+
+    <div id="introduction" class="row">
+      <div class="col-lg-6">
+        <img src="../../assets/png/Sponsorloop aankondiging banner.png" class="rounded mx-auto d-block" height="auto" width="75%"/>
+      </div>
+      <div class="col-lg-6">
+
+      </div>
+    </div>
 
   <hr class="divider">
   <div id="competition">
@@ -40,6 +50,18 @@
           <h2 class="featurette-heading">{{competition.name}}</h2>
           <p class="lead">
             {{competition.description}}
+          </p>
+          <p>
+            <ngb-progressbar type="primary"
+                             [value]="(competition.actualAmountsvparamedus / competition.targetAmountsvparamedus ) * 100">{{competition.actualAmountsvparamedus}}
+              SV Paramedus km
+            </ngb-progressbar>
+          </p>
+          <p>
+            <ngb-progressbar type="primary"
+                             [value]="(competition.actualAmountcodex / competition.targetAmountcodex ) * 100">{{competition.actualAmountcodex}}
+              Codex km
+            </ngb-progressbar>
           </p>
           <p>
             <ngb-progressbar type="primary"
@@ -63,19 +85,7 @@
       </div>
     </ng-container>
   </div>
-
-  <hr class="divider">
-
-  <div id="introduction" class="row">
-    <div class="col-lg-6">
-      <img src="../../assets/png/Sponsorloop aankondiging banner.png" height="640" width="452"/>
-    </div>
-    <div class="col-lg-6">
-
-    </div>
-  </div>
-
-  <hr class="divider">
+    <hr class="divider">
 
   <div id="runners">
     <h2>Deelnemers<br><br></h2>
