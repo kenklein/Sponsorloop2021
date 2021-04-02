@@ -1,11 +1,11 @@
 <div class="container marketing">
   <hr class="featurette-divider">
   <div class="container">
-      <div class="row mb-2">
+    <div class="row mb-2">
       <h4>
         {{facebookData.content}}
       </h4>
-      </div>
+    </div>
   </div>
 
   <hr class="divider">
@@ -16,99 +16,143 @@
           <h1 style="text-align: center;" class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }}
             opgehaald</h1>
         </div>
+      </div>
     </div>
-  </div>
+    <hr class="divider">
+<!--    <div id="introduction" class="row">-->
+<!--      <div class="col-lg-6">-->
+<!--        <img src="../../assets/png/Sponsorloop aankondiging banner.png" class="rounded mx-auto d-block" height="auto"-->
+<!--             width="75%"/>-->
+<!--      </div>-->
+<!--      <div class="col-lg-6">-->
+<!--      </div>-->
+<!--    </div>-->
 
-  <hr class="divider">
-  <div class="container">
-    <div id="signin">
-      <div class="col-lg-12">
-        <p class="lead">
-          Vul je gegevens in via onderstaande link om je run te bevestigen.
+    <hr class="divider">
+
+    <div id="charity_info_utv" class="row">
+
+      <div class="col-lg-8">
+          <h5 class="heading">U.T.V. <br/>
+            Yoga and Sport with Refugees</h5>
+        <p>
+        U.T.V. heeft gekozen voor het goede doel: Yoga and Sport with Refugees.  <a href="https://yogasportwithrefugees.org/">www.sportwithrefugees.org </a>
+        Yoga and Sport with Refugees is een kleine NGO die meer dan 20 verschillende sportactiviteiten aanbiedt aan
+        vluchtelingen. Je moet dan denken aan fitness, hardlopen, vechtsporten, voetbal, volleybal, zumba, dansen, yoga,
+        etc. De organisatie is sinds 3 jaar actief op Lesvos en sinds een aantal maanden ook in Athene. Een van de
+        belangrijkste doelen is om de vluchtelingen in de leiding te laten zijn van hun eigen trainingen! Bijna alle
+        coaches zijn vluchtelingen en de organisatie geeft ze zo de mogelijkheid om te trainen en zich te ontwikkelen.
+        Ze hebben een gym op Lesvos (buiten het kamp) en een gym in Athene.
+
+        <a href="https://www.youtube.com/watch?v=l3ODNr7XQcU&ab_channel=YogaandSportForRefugees">Video: Yoga and Sport For Refugees: We need your support !</a>
+
         </p>
-        <p><a class="btn btn-secondary" href="https://ingeniumcabobianci.nl/u-t-v-x-icb-corona-sponsorloop-2020/"> Naar
-          bevestigingsformulier »</a></p>
       </div>
-    </div>
-  </div>
-    <hr class="divider">
-
-    <div id="introduction" class="row">
-      <div class="col-lg-6">
-        <img src="../../assets/png/Sponsorloop aankondiging banner.png" class="rounded mx-auto d-block" height="auto" width="75%"/>
-      </div>
-      <div class="col-lg-6">
-
+      <div class="col-lg-4">
+        <img src="../../assets/Informatie/yoga_and_sport.png" height="260" width="auto"/>
       </div>
     </div>
 
-  <hr class="divider">
-  <div id="competition">
-    <ng-container *ngFor="let competition of competitionData">
-      <div class="row featurette">
-        <div class="col-md-12">
-          <h2 class="featurette-heading">{{competition.name}}</h2>
-          <p class="lead">
-            {{competition.description}}
-          </p>
-          <p>
-            <ngb-progressbar type="primary"
-                             [value]="(competition.actualAmountsvparamedus / competition.targetAmountsvparamedus ) * 100">{{competition.actualAmountsvparamedus}}
-              SV Paramedus km
-            </ngb-progressbar>
-          </p>
-          <p>
-            <ngb-progressbar type="primary"
-                             [value]="(competition.actualAmountcodex / competition.targetAmountcodex ) * 100">{{competition.actualAmountcodex}}
-              Codex km
-            </ngb-progressbar>
-          </p>
-          <p>
-            <ngb-progressbar type="primary"
-                             [value]="(competition.actualAmountutv / competition.targetAmountutv ) * 100">{{competition.actualAmountutv}}
-              UTV km
-            </ngb-progressbar>
-          </p>
-          <p>
-            <ngb-progressbar type="primary"
-                             [value]="(competition.actualAmounticb / competition.targetAmounticb ) * 100">{{competition.actualAmounticb}}
-              ICB km
-            </ngb-progressbar>
-          </p>
-          <p>
-            <ngb-progressbar type="primary"
-                             [value]="(competition.actualAmountother / competition.targetAmountother ) * 100">{{competition.actualAmountother}}
-              Overig km
-            </ngb-progressbar>
-          </p>
-        </div>
-      </div>
-    </ng-container>
-  </div>
+<!--    <div id="charity_info_icb" class="row">-->
+<!--      <div class="col-lg-4">-->
+<!--        <img src="../../assets/Informatie/yoga_and_sport.png" height="200" width="200"/>-->
+<!--      </div>-->
+<!--      <div class="col-lg-8">-->
+<!--        U.T.V. heeft gekozen voor het goede doel: Yoga and Sport with Refugees.-->
+<!--        Yoga and Sport with Refugees is een kleine NGO die meer dan 20 verschillende sportactiviteiten aanbiedt aan-->
+<!--        vluchtelingen. Je moet dan denken aan fitness, hardlopen, vechtsporten, voetbal, volleybal, zumba, dansen, yoga,-->
+<!--        etc. De organisatie is sinds 3 jaar actief op Lesvos en sinds een aantal maanden ook in Athene. Een van de-->
+<!--        belangrijkste doelen is om de vluchtelingen in de leiding te laten zijn van hun eigen trainingen! Bijna alle-->
+<!--        coaches zijn vluchtelingen en de organisatie geeft ze zo de mogelijkheid om te trainen en zich te ontwikkelen.-->
+<!--        Ze hebben een gym op Lesvos (buiten het kamp) en een gym in Athene.-->
+<!--        www.sportwithrefugees.org https://www.youtube.com/watch?v=l3ODNr7XQcU&ab_channel=YogaandSportForRefugees-->
+<!--      </div>-->
+<!--    </div>-->
+
     <hr class="divider">
 
-  <div id="runners">
-    <h2>Deelnemers<br><br></h2>
-    <ng-container *ngFor="let student of studentData">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h4>{{student.name}}
-            <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
-            </ng-container>
-            - {{student.actualAmount}} km
-          </h4>
+    <div class="container">
+      <div id="signin">
+        <div class="col-lg-12">
           <p class="lead">
-            {{student.team}}
+            Vul je gegevens in via onderstaande link om je run te bevestigen.
           </p>
-          <p>
-            {{student.description}}
-          </p>
-        </div>
-        <div class="col-md-5">
-          <img *ngIf="student.imageScr != null" src="{{student.imageScr}}" class="rounded float-left w-100" alt="">
+          <p><a class="btn btn-secondary" href="https://ingeniumcabobianci.nl/u-t-v-x-icb-corona-sponsorloop-2020/">
+            Naar
+            bevestigingsformulier »</a></p>
         </div>
       </div>
-      <hr class="divider">
-    </ng-container>
+    </div>
+
+    <hr class="divider">
+
+    <div id="competition">
+      <ng-container *ngFor="let competition of competitionData">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">{{competition.name}}</h2>
+            <p class="lead">
+              {{competition.description}}
+            </p>
+            <p>
+              <ngb-progressbar type="primary"
+                               [value]="(competition.actualAmountsvparamedus / competition.targetAmountsvparamedus ) * 100">{{competition.actualAmountsvparamedus}}
+                SV Paramedus km
+              </ngb-progressbar>
+            </p>
+            <p>
+              <ngb-progressbar type="primary"
+                               [value]="(competition.actualAmountcodex / competition.targetAmountcodex ) * 100">{{competition.actualAmountcodex}}
+                Codex km
+              </ngb-progressbar>
+            </p>
+            <p>
+              <ngb-progressbar type="primary"
+                               [value]="(competition.actualAmountutv / competition.targetAmountutv ) * 100">{{competition.actualAmountutv}}
+                UTV km
+              </ngb-progressbar>
+            </p>
+            <p>
+              <ngb-progressbar type="primary"
+                               [value]="(competition.actualAmounticb / competition.targetAmounticb ) * 100">{{competition.actualAmounticb}}
+                ICB km
+              </ngb-progressbar>
+            </p>
+            <p>
+              <ngb-progressbar type="primary"
+                               [value]="(competition.actualAmountother / competition.targetAmountother ) * 100">{{competition.actualAmountother}}
+                Overig km
+              </ngb-progressbar>
+            </p>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+    <hr class="divider">
+
+    <div id="runners">
+      <h2>Deelnemers<br><br></h2>
+      <ng-container *ngFor="let student of studentData">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h5>{{student.name}}
+              <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
+              </ng-container>
+              - {{student.actualAmount}} km
+            </h5>
+            <p class="lead">
+              {{student.team}}
+            </p>
+            <p>
+              {{student.description}}
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img *ngIf="student.imageScr != null" src="{{student.imageScr}}" class="rounded float-left w-100" alt="">
+          </div>
+        </div>
+        <hr class="divider">
+      </ng-container>
+    </div>
   </div>
 </div>
