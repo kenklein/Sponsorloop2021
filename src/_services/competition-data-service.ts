@@ -2,17 +2,34 @@ import {Competition} from '../_models/competition';
 
 export const COMPETITION_DATA: Competition[] = [
   {
-    name: 'Competitie',
-    description: 'Overzicht van de gelopen kilometers tussen de verenigingen.',
-    targetAmountsvparamedus: 0,
-    actualAmountsvparamedus: 0,
-    targetAmountcodex: 0,
-    actualAmountcodex: 0,
-    targetAmountutv: 0,
-    actualAmountutv: 0,
-    targetAmounticb: 0,
-    actualAmounticb: 0,
-    targetAmountother: 0,
-    actualAmountother: 0,
+    name: 'SV Paramedus',
+    runAmount: 100,
+    skeelerAmount: 50,
+    bikeAmount: 300
+
+  },
+  {
+    name: 'Codex',
+    runAmount: 50,
+    skeelerAmount: 200,
+    bikeAmount: 100,
+  },
+  {
+    name: 'UTV',
+    runAmount: 10,
+    skeelerAmount: 20,
+    bikeAmount: 400
+  },
+  {
+    name: 'ICB',
+    runAmount: 0,
+    skeelerAmount: 0,
+    bikeAmount: 0
+  },
+  {
+    name: 'Overig',
+    runAmount: 0,
+    skeelerAmount: 0,
+    bikeAmount: 0
   },
 ];
