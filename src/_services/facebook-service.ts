@@ -1,5 +1,7 @@
 import {Facebook} from '../_models/facebook';
 
 export const FACEBOOK_DATA: Facebook = {
-  content : 'De voorbereidingen voor de sponsorloop van 2021 zijn in volle gang. Deze zal plaatsvinden tussen 8 april t/m 9 mei. Op deze site is het verloop te volgen van de gelopen kilometers.'
+  content : 'Dit jaar is er weer een geweldige verenigingen sponsorloop georganiseerd.\n' +
+    '        Maar dit jaar strijden we met twee extra verenigingen voor de meest afgelegde kilometers!\n' +
+    '        De verenigingen die in 2021 mee doen zijn: Paramedus, Codex, U.T.V. en ICB. '
 }
