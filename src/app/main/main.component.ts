@@ -3,6 +3,7 @@ import {STUDENT_DATA} from '../../_services/student-data-service';
 import {COMPETITION_DATA} from '../../_services/competition-data-service';
 import {FACEBOOK_DATA} from '../../_services/facebook-service';
 import {Competition} from '../../_models/competition';
+import {GENERAL_DATA} from "../../_services/general-service";
 
 @Component({
   selector: 'app-main',
@@ -13,6 +14,7 @@ export class MainComponent {
   studentData = STUDENT_DATA;
   competitionData = COMPETITION_DATA;
   facebookData = FACEBOOK_DATA;
+  generalData = GENERAL_DATA;
 
   constructor() { }
   getTotal() {
