@@ -4,6 +4,7 @@ export interface Student {
   description: string;
   targetAmount: number;
   actualAmount: number;
-  amountRaised?: number;
-  imageScr?: string;
+  amountRaised: number;
+  imageScr_run: string;
+  imageScr_action: string;
 }
