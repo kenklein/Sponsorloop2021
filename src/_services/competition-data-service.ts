@@ -11,14 +11,14 @@ export const COMPETITION_DATA: Competition[] = [
   {
     name: 'Codex',
     runAmount: 0,
-    skeelerAmount: 200,
-    bikeAmount: 100,
+    skeelerAmount: 0,
+    bikeAmount: 0,
   },
   {
     name: 'U.T.V.',
     runAmount: 0,
-    skeelerAmount: 20,
-    bikeAmount: 400
+    skeelerAmount: 0,
+    bikeAmount: 0
   },
   {
     name: 'ICB',
