@@ -16,7 +16,7 @@ export const COMPETITION_DATA: Competition[] = [
   },
   {
     name: 'U.T.V.',
-    runAmount: 0,
+    runAmount: 16,
     skeelerAmount: 0,
     bikeAmount: 0
   },
