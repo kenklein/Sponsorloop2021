@@ -139,7 +139,7 @@
   <h2>Deelnemers<br></h2>
   <ng-container *ngFor="let student of studentData">
     <div class="row featurette">
-      <div class="col-md-8">
+      <div class="col-md-7">
         <h5>{{student.name}}
           <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
           </ng-container>
@@ -152,7 +152,7 @@
           {{student.description}}
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-5">
         <img *ngIf="student.imageSource != null" src="{{student.imageSource}}" class="rounded float-left w-75" alt="">
       </div>
     </div>
