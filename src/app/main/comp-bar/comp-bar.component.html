@@ -1,0 +1,21 @@
+<h6>{{competition.name}} - € {{competition.amountRaised}}</h6>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+       style="width: {{calculateRunPercentage()}}%">
+    <ng-container *ngIf="calculateRunPercentage() > 5">
+      {{competition.runAmount}} 🏃
+    </ng-container>
+  </div>
+  <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+       style="width: {{calculateSkeelerPercentage()}}%">
+    <ng-container *ngIf="calculateSkeelerPercentage() > 5">
+                  {{competition.skeelerAmount}}
+    </ng-container>
+  </div>
+  <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+       style="width: {{calculateBikePercentage()}}%">
+    <ng-container *ngIf="calculateBikePercentage() > 5">
+    {{competition.bikeAmount}} 🚴
+    </ng-container>
+  </div>
+</div>

@@ -2,9 +2,7 @@ export interface Student {
   name: string;
   team: string;
   description: string;
-  targetAmount: number;
-  actualAmount: number;
+  amount: number;
   amountRaised: number;
-  imageScr_run: string;
-  imageScr_action: string;
+  imageSource: string;
 }
