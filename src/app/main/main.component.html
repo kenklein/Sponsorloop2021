@@ -15,7 +15,7 @@
 </div>
 
 
-<div class="container">
+<div id="competition" class="container">
   <div class="row">
     <div class="col-md-6">
       <div class="alert alert-dark" role="alert">
@@ -139,7 +139,7 @@
   <h2>Deelnemers<br></h2>
   <ng-container *ngFor="let student of studentData">
     <div class="row featurette">
-      <div class="col-md-6">
+      <div class="col-md">
         <h5>{{student.name}}
           <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
           </ng-container>
@@ -152,12 +152,13 @@
           {{student.description}}
         </p>
       </div>
-      <div class="col-md-3">
-        <img *ngIf="student.imageSource != null" src="{{student.imageSource}}" class="rounded float-left w-75" alt="">
-      </div>
-      <div *ngIf="student.imageaction != null" class="col-md-3">
-        <img src="{{student.imageaction}}" class="rounded float-left w-75" alt="">
-      </div>
+        <div class="col-md-3">
+          <img *ngIf="student.imageaction != null" src="{{student.imageaction}}" class="rounded w-100" alt="">
+        </div>
+        <div class="col-md-3">
+          <img *ngIf="student.imageSource != null" src="{{student.imageSource}}" class="rounded w-100" alt="">
+        </div>
+
     </div>
     <hr class="divider">
   </ng-container>

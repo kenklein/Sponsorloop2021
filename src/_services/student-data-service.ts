@@ -17,7 +17,7 @@ export const STUDENT_DATA: Student[] = [
     amountRaised: 6,
     description: '',
     imageSource: 'assets/runs/run_jildou_valkema.png',
-    imageaction: 'assets/action_run/none_action.png',
+    imageaction: null,
   },
   {
     name: 'Lisa de Winter',
@@ -28,7 +28,7 @@ export const STUDENT_DATA: Student[] = [
       'Standaard elke zaterdag 20km rennen met elkaar. Dat noem ik pas doorzetten ❤️ ' +
       'Ooit in de verre toekomst loop ik een keer met ze mee ! #strongertogether',
     imageSource: 'assets/runs/run_lisa_de_winter.png',
-    imageaction: 'assets/action_run/none_action.png',
+    imageaction: null,
   },
 
 ];
