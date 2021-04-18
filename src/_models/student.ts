@@ -5,4 +5,5 @@ export interface Student {
   amount: number;
   amountRaised: number;
   imageSource: string;
+  imageaction: string;
 }
