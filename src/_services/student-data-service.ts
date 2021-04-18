@@ -7,7 +7,7 @@ export const STUDENT_DATA: Student[] = [
     amount: 9.33,
     amountRaised: 18,
     description: 'De zondag starten met een lange wandeling naar de Maarsseveense plassen 🚶‍♀‍',
-    imageSource: 'assets/runs/run_jildou_valkema.png',
+    imageSource: 'assets/runs/run_tessa_klomp.png',
     imageaction: 'assets/action_run/action_tessa_klomp.png',
   },
   {

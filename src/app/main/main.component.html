@@ -153,10 +153,10 @@
         </p>
       </div>
       <div class="col-md-3">
-        <img *ngIf="student.imageaction != null" src="{{student.imageaction}}" class="rounded float-left w-75" alt="">
-      </div>
-      <div class="col-md-3">
         <img *ngIf="student.imageSource != null" src="{{student.imageSource}}" class="rounded float-left w-75" alt="">
+      </div>
+      <div *ngIf="student.imageaction != null" class="col-md-3">
+        <img src="{{student.imageaction}}" class="rounded float-left w-75" alt="">
       </div>
     </div>
     <hr class="divider">
