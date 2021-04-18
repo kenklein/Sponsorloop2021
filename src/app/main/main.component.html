@@ -17,13 +17,13 @@
 
 <div id="competition" class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="alert alert-dark" role="alert">
         <h1 style="text-align: center;" class="display-4 font-italic">{{ getTotal() | currency: 'EUR' }}
           opgehaald</h1>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
       <div class="alert alert-dark" role="alert">
         <div *ngFor="let competition of competitionData" >
           <app-comp-bar [competition]="competition" [maxPoints]="totalMaximumPoints()"></app-comp-bar>
