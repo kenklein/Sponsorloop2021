@@ -2,6 +2,24 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
+    name: 'Lisa de Winter',
+    team: 'U.T.V.',
+    amount: 5.5,
+    amountRaised: 11,
+    description: '',
+    imageSource: 'assets/runs/run_lisa_de_winter_2.png',
+    imageaction: null,
+  },
+  {
+    name: 'Didier Wouters',
+    team: 'Ingenium Cabo Bianci',
+    amount: 7.67,
+    amountRaised: 16,
+    description: '',
+    imageSource: 'assets/runs/run_didier_wouters.png',
+    imageaction: null,
+  },
+  {
     name: 'Lars Goris',
     team: 'Ingenium Cabo Bianci',
     amount: 6,
