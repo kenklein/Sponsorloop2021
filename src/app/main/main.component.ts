@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {STUDENT_DATA} from '../../_services/student-data-service';
 import {COMPETITION_DATA} from '../../_services/competition-data-service';
+import {CAROUSEL_DATA} from "../../_services/carousel-data-service";
 
 @Component({
   selector: 'app-main',
@@ -10,6 +11,7 @@ import {COMPETITION_DATA} from '../../_services/competition-data-service';
 export class MainComponent {
   studentData = STUDENT_DATA;
   competitionData = COMPETITION_DATA;
+  carouselData = CAROUSEL_DATA;
 
   constructor() { }
   getTotal() {

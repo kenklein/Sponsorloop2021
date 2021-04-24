@@ -9,10 +9,44 @@
       <p><a class="btn btn-outline-primary btn-lg" href="https://www.instagram.com/verenigingensponsorloop/" role="button" target="_blank">Volg ons op instagram »</a></p>
     </div>
     <div class="col-md-3">
-      <img src="../../assets/Informatie/nieuw_logo_sponsorloop_2021.png" class="rounded w-100"/>
+      <img src="" class="rounded w-100"/>
     </div>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-md">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="rounded w-100" src="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Inner</h5>
+            <p>TEST</p>
+          </div>
+        </div>
+          <div class="carousel-item" *ngFor="let carousel of carouselData">
+            <img *ngIf="carousel.imageScr != null" src="{{carousel.imageScr}}" class="rounded w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>{{carousel.title}}</h5>
+              <p>{{carousel.description}}</p>
+              <a *ngIf="carousel.buttonurl != null" href="{{carousel.buttonurl}}" class="card-link btn btn-primary btn-md">{{carousel.buttontitle}}</a>
+            </div>
+          </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+<hr class="divider">
 
 
 <div id="competition" class="container">
