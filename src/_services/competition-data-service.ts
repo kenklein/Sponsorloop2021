@@ -11,8 +11,8 @@ export const COMPETITION_DATA: Competition[] = [
   },
   {
     name: 'Codex',
-    amountRaised: 41.88,
-    runAmount: 21.27,
+    amountRaised: 291.88,
+    runAmount: 51.27,
     skeelerAmount: 0,
     bikeAmount: 0,
   },
