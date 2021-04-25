@@ -3,6 +3,7 @@ export interface Student {
   team: string;
   description: string;
   amount: number;
+  travel: string;
   amountRaised: number;
   imageSource: string;
   imageaction: string;

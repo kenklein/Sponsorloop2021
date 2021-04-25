@@ -64,6 +64,7 @@
         </div>
       </div>
     </div>
+    <p>*Om de verhoudingen in het overzicht realistisch te weer te geven, worden de skeeler afstanden gedeeld door 2 en fietsafstanden gedeeld door 4.</p>
   </div>
 </div>
 
@@ -208,7 +209,7 @@
         <h5>{{student.name}}
           <ng-container *ngIf="student.amountRaised != null"><br/>{{student.amountRaised | currency: 'EUR' }}
           </ng-container>
-          - {{student.amount}} km
+          - {{student.amount}} km - {{student.travel}}
         </h5>
         <p class="lead">
           {{student.team}}
