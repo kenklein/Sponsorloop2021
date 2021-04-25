@@ -4,7 +4,7 @@ export const STUDENT_DATA: Student[] = [
   {
     name: 'Sofie van Leeuwen',
     team: 'U.T.V.',
-    amount: 8.06,
+    amount: 42.64,
     travel: 'Skeeleren',
     amountRaised: 511,
     description: 'Rollen tot je een ons weegt.\n' +
