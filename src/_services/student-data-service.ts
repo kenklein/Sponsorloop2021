@@ -2,6 +2,37 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
+    name: 'Sofie van Leeuwen',
+    team: 'U.T.V.',
+    amount: 42.64,
+    travel: 'Skeeleren',
+    amountRaised: 511,
+    description: 'Rollen tot je een ons weegt.\n' +
+      'Alles voor het goede doel!\n',
+    imageSource: 'assets/runs/run_sofie_van_leeuwen.png',
+    imageaction: 'assets/action_run/action_sofie_van_leeuwen.png',
+  },
+  {
+    name: 'Machteld Menkveld',
+    team: 'U.T.V.',
+    amount: 8.06,
+    travel: 'Hardlopen',
+    amountRaised: 8,
+    description: '',
+    imageSource: 'assets/runs/run(2)_machteld_menkveld.png',
+    imageaction: null,
+  },
+  {
+    name: 'Machteld Menkveld',
+    team: 'U.T.V.',
+    amount: 11.02,
+    travel: 'Hardlopen',
+    amountRaised: 11,
+    description: 'Heerlijke omgeving die krommerijn.',
+    imageSource: 'assets/runs/run(1)_machteld_menkveld.png',
+    imageaction: 'assets/action_run/action_machteld_menkveld.png',
+  },
+  {
     name: 'Isabel Buitendijk',
     team: 'U.T.V.',
     amount: 55.52,
