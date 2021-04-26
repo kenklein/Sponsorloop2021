@@ -18,15 +18,15 @@ export const COMPETITION_DATA: Competition[] = [
   },
   {
     name: 'U.T.V.',
-    amountRaised: 633.25,
-    runAmount: 76.07,
+    amountRaised: 645.25,
+    runAmount: 82.43,
     skeelerAmount: 42.64,
     bikeAmount: 55.52
   },
   {
     name: 'ICB',
-    amountRaised: 22,
-    runAmount: 13.67,
+    amountRaised: 27,
+    runAmount: 18.67,
     skeelerAmount: 0,
     bikeAmount: 0
   },
