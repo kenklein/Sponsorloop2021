@@ -2,6 +2,16 @@ import {Student} from '../_models/student';
 
 export const STUDENT_DATA: Student[] = [
   {
+    name: 'Sofie van Leeuwen',
+    team: 'U.T.V.',
+    amount: 15,
+    travel: 'Skeeleren',
+    amountRaised: 14.8,
+    description: 'Rollen, rollen, rollen.',
+    imageSource: 'assets/runs/run_sofie_van_leeuwen(2).png',
+    imageaction: 'assets/action_run/action_sofie_van_leeuwen(2).png',
+  },
+  {
     name: 'Milan Dammmingh',
     team: 'Ingenium Cabo Bianci',
     amount: 5,
