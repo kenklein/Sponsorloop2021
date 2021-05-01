@@ -3,7 +3,7 @@ import { AppComponent } from './app.component';
 import {MainComponent} from './main/main.component';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
-
+import {CompBarComponent} from "./main/comp-bar/comp-bar.component";
 
 describe('AppComponent', () => {
   beforeEach(waitForAsync(() => {
@@ -12,7 +12,8 @@ describe('AppComponent', () => {
         AppComponent,
         MainComponent,
         HeaderComponent,
-        FooterComponent
+        FooterComponent,
+        CompBarComponent,
       ],
     }).compileComponents();
   }));
