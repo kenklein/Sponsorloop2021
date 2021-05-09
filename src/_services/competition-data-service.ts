@@ -3,8 +3,8 @@ import {Competition} from '../_models/competition';
 export const COMPETITION_DATA: Competition[] = [
   {
     name: 'SV Paramedus',
-    amountRaised: 10,
-    runAmount: 6,
+    amountRaised: 110,
+    runAmount: 56.55,
     skeelerAmount: 0,
     bikeAmount: 0
 
@@ -18,23 +18,16 @@ export const COMPETITION_DATA: Competition[] = [
   },
   {
     name: 'U.T.V.',
-    amountRaised: 660.25,
-    runAmount: 82.43,
+    amountRaised: 789.95,
+    runAmount: 127.39,
     skeelerAmount: 57.44,
-    bikeAmount: 55.52
+    bikeAmount: 322.31
   },
   {
     name: 'ICB',
-    amountRaised: 132.5,
-    runAmount: 44.97,
+    amountRaised: 294.88,
+    runAmount: 59.33,
     skeelerAmount: 0,
     bikeAmount: 0
-  },
-  {
-    name: 'Overig',
-    amountRaised: 0,
-    runAmount: 0,
-    skeelerAmount: 0,
-    bikeAmount: 0
-  },
+  }
 ];
