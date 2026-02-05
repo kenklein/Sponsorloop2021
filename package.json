@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^11.2.8",
-    "@angular/cli": "^11.2.7",
+    "@angular/cli": "^21.1.2",
     "@angular/common": "^11.2.8",
     "@angular/compiler": "^11.2.8",
     "@angular/core": "^11.2.8",
@@ -28,13 +28,13 @@
     "jquery": "^3.6.0",
     "mongodb": "^3.6.5",
     "ng2-charts": "^2.4.2",
-    "npm": "^8.11.0",
+    "npm": "^11.9.0",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1102.7",
+    "@angular-devkit/build-angular": "^21.1.2",
     "@angular/compiler-cli": "^11.2.8",
     "@angular/language-service": "^11.2.8",
     "@types/jasmine": "~3.6.0",
